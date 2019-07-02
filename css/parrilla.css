@@ -70,6 +70,8 @@ footer{
     display: block;
     border-radius: 20px;
     background-color: burlywood;
+    width: 65%;
+
 }
 
 .logo{
@@ -154,20 +156,25 @@ img{
     height:100%;
     width: 100%;
     border-radius: 50px;
-    image-rendering: auto;
+    image-rendering: optimizeSpeed;
 }
 .info-serie{
     display:none;
- /* border:solid 1px red; */
     text-align: justify;
     margin-left: .5rem;
     border: solid 1px darkgray;
     border-radius: 20px;  
 } 
 
-.info-serie > h2,
-.info-serie > h3,
-.info-serie > a {
+.info-serie  h2,
+.info-serie  h3{
+    text-align: center;
+}
+.info-serie  p{
+    text-align: justify;
+    margin-left: 1rem;
+}
+.info-serie  p  a{
     text-align: center;
 }
 
@@ -216,9 +223,17 @@ footer > p{
         background-color:var(--bg-color);
         list-style-type: none;
         width: 150px;
-        height: 5vh;
-       
-       
+        height: 5vh; 
+    }
+
+    .navbar-item > input {
+        color: var(--text-color);
+        margin-left: .75rem;
+        display: block;
+        border-radius: 20px;
+        background-color: burlywood;
+        width: 95%;
+    
     }
     .navbar-item > a:hover {
         color: rgb(77, 53, 9);
@@ -233,17 +248,27 @@ footer > p{
     .burger-label{
         display: none;
     }
-
-
-        
-    
     .logo{
         color: var(--text-color);
         display: flex;
         font-size: x-large;
         justify-content: flex-start;
-        justify-items: center;
-           
+        justify-items: center;     
+    }
+    .rejilla{
+
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr;
+        width: 100%;
+        justify-content: stretch;
+        align-content: stretch;
+        padding: 1rem;
+        grid-gap: 0.75rem;
+        grid: 1 1 100%;
+        z-index: 1;
+        margin:0;
+        list-style-type: none;
+        
     }
 
 
