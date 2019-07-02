@@ -18,5 +18,10 @@
     margin: 0;
 
 }
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
 
     
