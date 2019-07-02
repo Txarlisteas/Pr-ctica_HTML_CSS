@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+
+:root {
+    --max-width: 1500px;
+    --text-color: orange;
+    --bg-color: rgb(241, 241, 241);
+    --bg-inverted: #EFEFFE;
+}
+
+* {
+    font-family: 'Indie Flower', cursive;
+    font-size: medium;
+ 
+}
+
+.navbar > .navbar-list {
+    padding: 0;
+    margin: 0;
+
+}
+
+    
